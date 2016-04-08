@@ -1,0 +1,19 @@
+{
+    "name": "godfery/uuid",
+    "description": "auto genete uuid (float type)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "godfery",
+            "email": "157062357@qq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+        "CustomUUID.php"
+       
+        ]
+    },
+    "require": {}
+    
+}
