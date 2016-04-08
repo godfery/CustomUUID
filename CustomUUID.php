@@ -1,4 +1,10 @@
 <?php
+/**
+ * 自定义 ID 生成器
+ * ID 生成规则: ID长达 64 bits
+ *
+ * | 41 bits: Timestamp (毫秒) | 3 bits: 区域（机房） | 10 bits: 机器编号 | 10 bits: 序列号 |
+ */
 class CustomUUID {
 	// 基准时间
 	private  $twepoch = 1288834974657; //Thu, 04 Nov 2010 01:42:54 GMT
